@@ -4,7 +4,8 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    name: '钢铁侠\n',
+    position: '首席执行官',
     httpUrl: 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg',
     localUrl: '../res/img/nature.jpg',
     userInfo: {},
