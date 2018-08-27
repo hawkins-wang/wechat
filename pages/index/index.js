@@ -6,7 +6,7 @@ Page({
   data: {
     name: '钢铁侠\n',
     position: '首席执行官',
-    httpUrl: 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg',
+    httpUrl: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3806034795,2247234921&fm=27&gp=0.jpg',
     localUrl: '../res/img/nature.jpg',
     pointUrl: '../res/img/point.png',
     middle1Url: '../res/img/middle1.jpg',

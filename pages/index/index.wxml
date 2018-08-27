@@ -1,62 +1,66 @@
 <!--index.wxml-->
-<view style='position: relative;'>
-  <image src='{{httpUrl}}' class='titleImg'></image>
-  <view class='titleMsgContainer'>
-    <text>{{name}}</text>
-    <text>{{position}}</text>
-  </view>
-  <image src='{{pointUrl}}' mode='scaleToFill' class='point'></image>
-  <view class='right2'></view>
-  <view class='right1'></view>
-</view>
-<view class='middle'>
-  <view style='float:left'>
-    <view>
-      <text class='middleLeftFirst'>钢铁侠</text>
-      <text class='middleLeftSecond'>Iron Man</text>
-    </view>
-    <view>
-      <text>研发部</text>
-      <text class='middleLeftFour'>R&department</text>
-    </view>
-     <view>
-      <text>首席执行官</text>
-      <text class='middleLeftFour'>ChiefXOfficer</text>
-    </view>
-  </view>
 
-  <view style='float: right'>
-    <view>
-      <text>百立</text>
-      <text>易卡</text>
+<view class='titleback'>
+    <view class='nameContainer'>
+      <text class='titleText name'>{{name}}</text>
+      <text class='titleText job'>{{position}}</text>
     </view>
-    <view>
-      <text>Nameo</text>
-      <text>Tech</text>
-    </view>
-  </view>
+    <image src='{{pointUrl}}' mode='aspectFill' class='point'></image>
+    <view class='whiterec'></view>
+    <view class='nocolorrec'></view>
 </view>
 
-<view style='margin:70rpx'>
-  <view style='float:left'>
-    <view>
-      <text>上海百立易卡科技有限公司</text>
+
+<view class='middleContainer'>
+  <view class='middleRow'>
+    <view class='middleFirstRow'>
+      <view>
+        <text class='middleLeftFirst'>钢铁侠</text>
+        <text class='middleLeftSecond'>Iron Man</text>
+      </view>
+      <view>
+        <text class='middleLeftFour'>研发部</text>
+        <text class='middleLeftFour'>R&department</text>
+      </view>
+      <view>
+        <text class='middleLeftFour'>首席执行官</text>
+        <text class='middleLeftFour'>ChiefXOfficer</text>
+      </view>
     </view>
-    <view>
-      <text>shanghai Namecardio</text>
-    </view>
-    <view>
-      <text>上海市普陀区xxx路</text>
+
+    <view class='middleSecondRow'>
+      <view class='middleTextLogo'>
+        <text>百立</text>
+        <text>易卡</text>
+      </view>
+      <view class='middleEnTextLogo'>
+        <text>Namecardio </text>
+        <text>Technology</text>
+      </view>
     </view>
   </view>
 
-  <view style='float: right;marginTop:30rpx'>
-    <view>
-      <image src='{{middle1Url}}' class='middleImg'></image>
+  <view class='middleRow'>
+    <view class='middleFirstRow'>
+      <view>
+        <text>上海百立易卡科技有限公司</text>
+      </view>
+      <view>
+        <text class='middleLeftFour'>shanghai Namecardio</text>
+      </view>
+      <view>
+        <text class='middleLeftFour'>上海市普陀区xxx路xxxxx大方的发的都是xxxx好</text>
+      </view>
     </view>
-    <view>
-      <image src='{{middle2Url}}' class='middleImg'></image>
+
+    <view  class='middleSecondRow'>
+      <view>
+        <image src='{{middle1Url}}' class='middleImg'></image>
+      </view>
+      <view>
+        <image src='{{middle2Url}}' class='middleImg'></image>
+      </view>
     </view>
-    
   </view>
+  
 </view>

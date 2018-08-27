@@ -4,3 +4,71 @@
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
 </view>
+
+
+<!--index.wxml-->
+
+<view class='middle'>
+  <view style='float:left;overflow:hidden;'>
+    <view>
+      <text class='middleLeftFirst'>钢铁侠</text>
+      <text class='middleLeftSecond'>Iron Man</text>
+    </view>
+    <view>
+      <text class='middleLeftFour'>研发部</text>
+      <text class='middleLeftFour'>R&department</text>
+    </view>
+     <view>
+      <text class='middleLeftFour'>首席执行官</text>
+      <text class='middleLeftFour'>ChiefXOfficer</text>
+    </view>
+  </view>
+
+  <view style='float: right;overflow:hidden;'>
+    <view>
+      <text>百立</text>
+      <text>易卡</text>
+    </view>
+    <view>
+      <text>Nameo</text>
+      <text>Tech</text>
+    </view>
+  </view>
+</view>
+
+<view style='margin:70rpx;height:150rpx;overflow:hidden;'>
+  <view style='float:left;width:80%;overflow:hidden;'>
+    <view>
+      <text>上海百立易卡科技有限公司</text>
+    </view>
+    <view>
+      <text class='middleLeftFour'>shanghai Namecardio</text>
+    </view>
+    <view>
+      <text class='middleLeftFour'>上海市普陀区xxx路</text>
+    </view>
+  </view>
+
+  <view style='float: right;marginTop:30rpx;overflow:hidden;'>
+    <view>
+      <image src='{{middle1Url}}' class='middleImg'></image>
+    </view>
+    <view>
+      <image src='{{middle2Url}}' class='middleImg'></image>
+    </view>
+  </view>
+</view>
+
+<view class='line'/>
+
+<view style='height:100rpx;display:flex;display-direction:column;margin-left:30rpx;overflow:hidden;'>
+  <view>手机号码</view>
+  <view>15646498798</view>
+</view>
+
+<view class='line'/>
+
+<view style='height:100rpx;display:flex;display-direction:column;margin-left:30rpx;'>
+  <view>手机号码</view>
+  <view>15646498798</view>
+</view>

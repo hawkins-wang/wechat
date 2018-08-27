@@ -1,4 +1,159 @@
-/**index.wxss**/
+/**顶部图片区域**/
+.titleback {
+  background: url('https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3806034795,2247234921&fm=27&gp=0.jpg');
+  width: 100%;
+  height: 300rpx;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+  position: relative;
+}
+
+.nameContainer {
+  position: absolute;
+  left: 50%;
+  margin-left: -80rpx;
+  bottom: 60rpx;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.titleText{
+  color: white;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.job {
+  font-size: 15px;
+}
+
+.point {
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+  width: 80rpx;
+  height: 80rpx;
+  display: block;
+}
+
+.whiterec {
+  background-color: white;
+  position: absolute;
+  right: 40rpx;
+  top: 40rpx;
+  width: 50rpx;
+  height: 30rpx;
+  display: block;
+  box-sizing: border-box;
+}
+
+.nocolorrec {
+  position: absolute;
+  right: 35rpx;
+  top: 35rpx;
+  width: 50rpx;
+  height: 30rpx;
+  display: block;
+  border:1px solid white;
+  box-sizing: border-box;
+}
+
+/**中间名片信息、地址**/
+.middleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin: 50rpx;
+  height: 400rpx;
+}
+
+.middleContainer .middleRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.middleFirstRow {
+  flex-grow: 3;
+}
+
+.middleSecondRow {
+  flex-grow: 1;
+}
+
+.middleTextLogo {
+  font-size: 30px;
+  font-style: bold italic;
+}
+.middleEnTextLogo {
+  font-size: 10px;
+}
+
+
+.middleLeftFirst {
+  font-weight:bold;
+  font-size: 50rpx;
+  height: 100%;
+  vertical-align:bottom;
+}
+.middleLeftSecond {
+  vertical-align:bottom;
+  height: 100%;
+  font-style:italic;
+  font-size: 30rpx;
+  margin-left: 15rpx;
+}
+
+.middleLeftThree {
+  vertical-align:bottom;
+  height: 100%;
+  font-size: 30rpx;
+}
+
+.middleLeftFour {
+  vertical-align:bottom;
+  height: 100%;
+  font-style:italic;
+  font-size: 30rpx;
+}
+
+.middleLeftFourth {
+  vertical-align:bottom;
+  height: 100%;
+  font-style:italic;
+  font-size: 30rpx;
+  margin-left: 15rpx;
+}
+
+.middleImg {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.line {
+  height:1rpx;
+  background-color: gray;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -20,106 +175,12 @@
   margin-top: 200px;
 }
 
-.title {
-  background-image: url(http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg);
-  background-color: #eeeeee;
-  background-attachment:fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center left;
-  float: true;
-  align-items: center;
-}
-.titleImg {
-  height: 300rpx;
-  width: 100%;
-}
 
-.titleMsgContainer { 
-  color: white;
-  position: absolute;
-  left: 50%;
-  margin-left: -80rpx;
-  bottom: 60rpx;
-  display: block;
-  box-sizing: border-box;
-  text-align: center;
-}
 
-.point {
-  color: white;
-  position: absolute;
-  right: 25rpx;
-  bottom: 25rpx;
-  width: 60rpx;
-  height: 60rpx;
-  display: block;
-}
-
-.right1 {
-  background-color: white;
-  position: absolute;
-  right: 40rpx;
-  top: 40rpx;
-  width: 50rpx;
-  height: 30rpx;
-  display: block;
-  box-sizing: border-box;
-}
-
-.right2 {
-  background-color: black;
-  position: absolute;
-  right: 35rpx;
-  top: 35rpx;
-  width: 50rpx;
-  height: 30rpx;
-  display: block;
-  border:1px solid white;
-  box-sizing: border-box;
-}
 
 .middle {
   position: relative;
   margin: 70rpx;
-}
-
-.middleLeftFirst {
-  font-weight:bold;
-  font-size: 50rpx;
-  height: 100%;
-  vertical-align:bottom;
-}
-.middleLeftSecond {
-  vertical-align:bottom;
-  height: 100%;
-  font-style:italic;
-  margin-left: 15rpx;
-}
-
-.middleLeftThree {
-  vertical-align:bottom;
-  height: 100%;
-  font-size: 30rpx;
-}
-
-.middleLeftFour {
-  vertical-align:bottom;
-  height: 100%;
-  font-style:italic;
-  font-size: 30rpx;
-  margin-left: 15rpx;
-}
-
-.middleLeftFourth {
-  vertical-align:bottom;
-  height: 100%;
-  font-style:italic;
-  font-size: 30rpx;
-  margin-left: 15rpx;
-}
-
-.middleImg {
-  width: 70rpx;
-  height: 70rpx;
+  height: 150rpx;
+  overflow:hidden;
 }
